@@ -244,6 +244,10 @@ class Dashboard extends React.Component {
             <CardHeader color="info">
               <h3 className={classes.cardTitleWhite}>Patient List</h3>
               <p className={classes.cardCategoryWhite}>ici on aurait des pastilles de filtre</p>
+              <div>
+                <h4 style={{ margin: 0 }}>Filtres:</h4>
+                <span>OUT THRESHOLD</span> {"  "} <span>|</span> {"  "} <span>IN THRESHOLD</span>
+              </div>
             </CardHeader>
             <CardBody>
               <Table
