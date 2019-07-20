@@ -25,8 +25,7 @@ class CustomTabs extends React.Component {
   render() {
     const { classes, headerColor, plainTabs, tabs, title, rtlActive } = this.props;
     const cardTitle = classNames({
-      [classes.cardTitle]: true,
-      [classes.cardTitleRTL]: rtlActive
+      [classes.cardTitle]: true
     });
     return (
       <Card plain={plainTabs}>

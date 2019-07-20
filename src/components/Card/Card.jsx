@@ -1,20 +1,5 @@
-/*!
+//
 
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -28,15 +13,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import cardStyle from "assets/jss/material-dashboard-react/components/cardStyle.jsx";
 
 function Card({ ...props }) {
-  const {
-    classes,
-    className,
-    children,
-    plain,
-    profile,
-    chart,
-    ...rest
-  } = props;
+  const { classes, className, children, plain, profile, chart, ...rest } = props;
   const cardClasses = classNames({
     [classes.card]: true,
     [classes.cardPlain]: plain,
